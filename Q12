@@ -1,0 +1,42 @@
+#include<stdio.h>
+ 
+int main()
+{
+   int n, i1 = 3, i2 = 3, count, c;
+ 
+   for ( count = 2 ; count <= 6 ;  )
+   {
+      for ( c = 2 ; c <= i1 - 1 ; c++ )
+      {
+         if ( i1%c == 0 )
+            break;
+      }
+      if ( c == i1 )
+      {
+         count++;
+      }
+      i1++;
+   }
+   i1--;
+ 
+   for ( count = 2 ; count <= 12 ;  )
+   {
+      for ( c = 2 ; c <= i2 - 1 ; c++ )
+      {
+         if ( i2%c == 0 )
+            break;
+      }
+      if ( c == i2 )
+      {
+         count++;
+      }
+      i2++;
+   }
+   i2--;
+
+ n = i2-i1;
+ printf("resultado %d\n", n);
+ 
+   return 0;
+}
+

@@ -1,0 +1,22 @@
+
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+{
+char s[100];
+int i,n=0,x;
+ 
+printf("digite:");
+
+for(i = 0; i<100;i++)
+{
+	if(s[i]=='a')
+	{
+		n++;
+	}
+}
+
+printf("%d", n);
+
+}

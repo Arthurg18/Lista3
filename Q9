@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main()
+{
+  int a = 0, b, c;
+  int i;
+  int soma = 0;
+  c=0;
+for( i = 13; i<74; i++)
+{
+  if(i%2 == 0)
+  {
+    soma = soma+i;
+   c++;    
+  }
+}
+b = soma/c;
+
+printf("\n\n A media dos numeros pares entre 13 e 73 eh: %d \n\n A quantidade de numeros pares eh: %d \n\n A soma dos numeros pares eh: %d \n", b,c,soma);
+  
+   return 0;
+}

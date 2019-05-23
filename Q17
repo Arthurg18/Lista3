@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+
+float c;
+
+printf("insira a temperatura\n");
+
+scanf("%f", &c);
+
+c = c/5;
+c=c*9;
+c = c+32;
+printf("C TO F = %f\n", c);
+
+return(0);
+
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+
+int main()
+{
+	int i;
+for( i == 1; i<29; i++)
+{
+	int valor = i*7;
+	printf("Fatorial de x = %d \n\n", valor );
+    
+}
+    
+    return 0;
+}

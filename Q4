@@ -15,7 +15,7 @@ for( i = a; i>0; i--)
 	if(a%i == 0)
 	{
 		
-	printf("Fatorial de x = %d \n\n", i );
+	printf("divisores = %d \n\n", i );
     		
 	}
 }

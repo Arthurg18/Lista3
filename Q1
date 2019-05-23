@@ -14,6 +14,6 @@ if(a>1)
 
 int main()
 {
-    printf("Fatorial de %d = %d \n\n", 100, fatorial(100));
+    printf("soma dos %d primeiros = %d \n\n", 100, fatorial(100));
     return 0;
 }

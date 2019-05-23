@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+
+int main()
+{
+	int a = 0;
+	int i;
+for( i = 10; i>0; i--)
+{
+	  printf("Digite um numero inteiro: ");
+  scanf("%d", &a); //recebe um inteiro e armazena na variável a
+	if(a>=10 && a<=50)
+	{
+		printf("Dentro\n");
+	}
+	else
+	{
+		printf("Fora\n");
+	}
+}
+
+    
+    return 0;
+}

@@ -11,7 +11,7 @@ for( i == 1; i<26; i++)
 	int valor = i*4;
 	if(valor > 0)
 	{
-	printf("Fatorial de x = %d \n\n", valor );
+	printf("num divisível por 4 = %d \n\n", valor );
     	
 	}
 }

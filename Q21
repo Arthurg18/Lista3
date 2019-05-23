@@ -1,0 +1,39 @@
+#include<stdio.h>
+
+int main(void)
+{
+ int vetor[5];
+
+ int i;
+
+ for(i=0;i<5;i++){
+   printf("Digite um numero inteiro: ");
+ scanf("%d", &vetor[i]);
+ }
+  printf("\n");
+
+ for(i=1;i<=vetor[0]; i++){
+   printf(" * ");
+ }
+ printf("\n");
+
+ for(i=1;i<=vetor[1]; i++){
+   printf(" * ");
+ }
+ printf("\n");
+
+ for(i=1;i<=vetor[2]; i++){
+   printf(" * ");
+ }
+ printf("\n");
+
+ for(i=1;i<=vetor[3]; i++){
+   printf(" * ");
+ }
+ printf("\n");
+  for(i=1;i<=vetor[4]; i++){
+   printf(" * ");
+ }
+ printf("\n");
+  return 0;
+}

@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+ 
+int main()
+{
+  int soma = 0, n, fib1 = 0, fib2 = 1, fib3, c;
+ 
+  printf("insira o numero\n");
+  scanf("%d", &n);
+ 
+  for (c = 0; c < n; c++)
+  {
+    if (c <= 1)
+      fib3 = c;
+    else
+    {
+      fib3 = fib1 + fib2;
+      fib1 = fib2;
+      fib2 = fib3;
+    }
+    printf("numero n da sequencia %d\n", fib3);
+    soma = soma+fib3;
+  }
+  
+    printf("soma dos valores da sequencia %d\n", soma);
+ 
+  return 0;
+}

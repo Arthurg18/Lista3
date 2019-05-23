@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <string.h>
+#include<conio.h>
+void main()
+{
+char s[108];
+int i,n=0,x;
+char abc[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+printf("digite:");
+ gets(s);
+ 
+for(x = 0; x<26; x++)
+{
+	
+for(i = 0; i<108;i++)
+{
+		if(s[i]==abc[x])
+	{
+		n++;
+	}
+	
+}
+if(abc[x]=='a')
+{
+
+	printf("existem %d %c/n", n-1, abc[x]);	
+}
+else{
+
+printf("existem %d %c/n", n, abc[x]);	
+	
+}n=0;
+}
+
+  return 0;
+
+}
